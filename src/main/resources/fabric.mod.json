@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "diversepalette",
   "version": "${version}",
 
-  "name": "Fabric Starter",
+  "name": "Diverse Palette",
   "icon": "assets/starter/icon.png",
   "description": "Template for starting out Fabric mods",
   "license": "MIT",
@@ -11,13 +11,8 @@
     "sources": "https://github.com/CottonMC/FabricStarter"
   },
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "io.github.cottonmc.starter.FabricStarter"
-    ]
-  },
   "mixins": [
-    "mixins.starter.json"
+    "mixins.diversepalette.json"
   ],
   "depends": {
     "fabricloader": ">=0.4.0"
